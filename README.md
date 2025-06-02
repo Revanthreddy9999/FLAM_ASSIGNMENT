@@ -1,0 +1,5 @@
+This repository contains two high-performance, interview-grade C++ implementations of core data structures: a Least Recently Used (LRU) Cache and a custom-built HashMap. What makes this project stand out is its deliberate avoidance of any built-in associative containers like unordered_map or map. Instead, each data structure is crafted from first principles—offering not just correct functionality, but also deep insight into how such systems operate under the hood.
+
+1)The LRUCache implements O(1) get() and put() operations using a carefully managed doubly linked list and manual hash table, simulating real-world cache behavior with efficient eviction of the least recently used entries. It mirrors the logic used in operating systems, web browsers, and memory management systems.
+
+2)The MyHashMap is a simplified yet powerful fixed-size hash table optimized for key ranges between 0 and 10^6. It demonstrates how direct addressing and sentinel-based deletion can be used to achieve blazing-fast constant-time operations without relying on the STL.
